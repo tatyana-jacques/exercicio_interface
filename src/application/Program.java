@@ -37,7 +37,7 @@ public class Program {
 		
 		System.out.println("Parcelas: ");
 		for(Installment i: contract.getInstallments()) {
-			System.out.println(fmt.format(i.getDueDate()) + " - " + String.format("%.2f", i.getAmount()));
+			System.out.println(i);
 		}
 		
 		
